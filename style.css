@@ -1,0 +1,68 @@
+body {
+  background-color: rgb(136, 191, 128);
+}
+
+.container {
+  margin: 100px auto;
+}
+
+.row {
+  text-align: center;
+}
+
+.title {
+  font-size: 30px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.card {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  box-sizing: border-box;
+  cursor: pointer;
+  opacity: .8;
+}
+
+.card:hover {
+  border: 1px solid transparent;
+}
+
+.clicked {
+  cursor: auto;
+  opacity: 1;
+}
+
+.red {
+  background-color: rgb(188, 24, 24);
+}
+
+.green {
+  background-color: rgb(8, 150, 53);
+}
+.blue {
+  background-color: rgb(53, 35, 169);
+}
+.pink{
+  background-color: rgb(213, 56, 161);
+}
+.yellow {
+  background-color: rgb(189, 220, 65);
+}
+.black {
+  background-color: rgb(23, 21, 23);
+}
+
+.orange {
+  background-color: orange;
+}
+
+.grey {
+  background-color: rgb(116, 116, 116);
+}
+
+.hidden {
+  background-color: #eee;
+}
